@@ -42,7 +42,7 @@ class ObjectIterator implements \Iterator, \Countable
      * {@inheritdoc}
      */
     #[\ReturnTypeWillChange]
-    public function current()
+    public function current(): mixed
     {
         $this->initialize();
 
